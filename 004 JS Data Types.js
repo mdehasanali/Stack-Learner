@@ -38,6 +38,9 @@ var s4 = String(105.00);
 console.log(s1, s2, s3, s4);
 console.log(typeof(s1)); // string data type
 
+var x = true;
+console.log(x.toString());
+
 
 // ****** Boolean data type *******
 
