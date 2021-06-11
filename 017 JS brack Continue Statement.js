@@ -21,3 +21,35 @@ for (let index = 1; index < 10; index++) {
         console.log(`${index}`);
     }
 }
+
+
+
+
+
+
+
+// *********************************************
+// *********** continue statements *************
+// *********************************************
+
+
+// odd number create for if statement
+
+for (let index = 0; index < 10; index++) {
+    if (index % 2 === 0) {
+        continue
+    } else {
+        console.log(index);
+    }
+}
+
+
+// 3 or 7 sikp koror jonno is program
+
+for (let index = 0; index < 10; index++) {
+    if (index === 3 || index === 7) {
+        continue
+    } else {
+        console.log(`This Number is ${index}`);
+    }
+}
