@@ -31,3 +31,24 @@ console.log(hobby);
 // backcelas print
 var hobby = 'This is a \\ String'
 console.log(hobby);
+
+
+
+
+//////////////////////////////////////////////////
+////////////// String Comparison /////////////////
+//////////////////////////////////////////////////
+
+
+var a = 'abc'
+var b = 'bcd'
+console.log(a == b);
+
+console.log(a > b);
+console.log(a < b);
+console.log('a' > 'Z');
+
+console.log('aaaaaZ' < 'aaaaaz');
+
+
+console.log('001' == 1);
