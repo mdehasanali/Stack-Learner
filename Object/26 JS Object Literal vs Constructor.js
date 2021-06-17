@@ -64,3 +64,28 @@ console.log(obj2);
 console.log(obj2.name);
 console.log(obj2.roll);
 console.log(obj2.cgpa);
+
+
+
+
+
+////////////////////////////////////////////////////////
+/////////////////// Accessing object ///////////////////
+///////////////////////////////////////////////////////
+
+const details = {
+    fullName: 'Md. Ehasan Ali',
+    age: 18,
+    cgpa: 2.81,
+    phoneNumber: '01752128520'
+}
+var show = 'phoneNumber'
+
+// console.log(details);
+// console.log(details['fullName']);
+// console.log(details['age']);
+// console.log(details['cgpa']);
+// console.log(details['phoneNumber']);
+
+
+console.log(details[show]);
