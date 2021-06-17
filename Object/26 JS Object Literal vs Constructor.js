@@ -89,3 +89,33 @@ var show = 'phoneNumber'
 
 
 console.log(details[show]);
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////
+/////////////////// Setting  object ///////////////////
+///////////////////////////////////////////////////////
+
+
+var point = {
+    x: 10,
+    y: 20,
+    z: 50
+}
+
+// console.log(point['y']);
+
+point['y'] = 100
+point['a'] = 40
+
+// console.log(point['y']);
+// console.log(point['a']);
+// console.log(point);
+
+var pop = 'z'
+point[pop] = 70
+console.log(point);
